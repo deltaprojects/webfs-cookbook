@@ -1,0 +1,6 @@
+name             'webfs'
+maintainer       'Elias Abacioglu'
+maintainer_email 'elias.abacioglu -AT- deltaprojects -DOT- com'
+license          'Apache v2.0'
+description      'Installs/Configures webfs'
+version          '0.0.1'
