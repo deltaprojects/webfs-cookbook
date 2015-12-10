@@ -6,7 +6,7 @@ action :install do
 
   # enable and start webfs service.
   service 'webfs' do
-    supports :status => true, :restart => true, :reload => false
+    supports :status => false, :restart => true, :reload => false
     action [:start, :enable]
   end
 
